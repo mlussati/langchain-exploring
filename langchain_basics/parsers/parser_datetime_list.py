@@ -1,10 +1,10 @@
-# importing LangChain modules
+# Datetime Parser
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.output_parsers import DatetimeOutputParser, CommaSeparatedListOutputParser
 from dotenv import dotenv_values
 
-config = dotenv_values("/Users/manilsonlussati/Documents/workspace/langchain-exploring/.env")
+config = dotenv_values("..../langchain-exploring/.env")
 
 # insert your key here
 llm = OpenAI(api_key=config["OPENAI_KEY"])

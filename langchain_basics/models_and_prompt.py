@@ -8,7 +8,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate, FewShotPromptTemplate
 from dotenv import dotenv_values
 
-config = dotenv_values("/Users/manilsonlussati/Documents/workspace/langchain-exploring/.env")
+config = dotenv_values(".../langchain-exploring/.env")
 
 # Creating the model to be used
 # llm = OpenAI(api_key=config["OPENAI_KEY"])
